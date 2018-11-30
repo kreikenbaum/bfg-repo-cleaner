@@ -5,7 +5,7 @@
     <meta name="referrer" content="origin">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="canonical" href="https://rtyley.github.io/bfg-repo-cleaner/" />
+    <link rel="canonical" href="https://rtyley.github.io/bfg-repo-cleane`r/" />
     <meta name="description" content="A simpler, faster alternative to git-filter-branch for deleting big files and removing passwords from Git history.">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
@@ -190,7 +190,7 @@ Roberto's creations (<a href="https://play.google.com/store/apps/details?id=com.
 </p>
 <h1>Requirements</h1>
 <ul>
-<li>The <a href="http://java.com/en/download/manual.jsp">Java Runtime Environment</a> (Java 7 or above - BFG <a href="http://repo1.maven.org/maven2/com/madgag/bfg/1.12.3/bfg-1.12.3.jar">v1.12.3</a> was the last version to support Java 6)</li>
+<li>The <a href="http://java.com/en/download/manual.jsp">Java Runtime Environment</a> (Java 7 or above - BFG <a href="https://repo1.maven.org/maven2/com/madgag/bfg/1.12.3/bfg-1.12.3.jar">v1.12.3</a> was the last version to support Java 6)</li>
 </ul>
 <p>That's it - the Scala library and all other dependencies are folded into the <a class="latest-download-link" data-event-category="Requirements Link" href="#download">downloadable jar</a>.</p>
 
@@ -242,7 +242,7 @@ $.ajax({ dataType: "jsonp", timeout: 5000,
   url: 'https://search.maven.org/solrsearch/select/?q=g:"com.madgag"+AND+a:"bfg"&wt=json&json.wrf=?&indent=true'
 }).done(function ( data ) {
     var v = data.response.docs[0].latestVersion;
-    var u = "http://repo1.maven.org/maven2/com/madgag/bfg/"+v+"/bfg-"+v+".jar"
+    var u = "https://repo1.maven.org/maven2/com/madgag/bfg/"+v+"/bfg-"+v+".jar"
     $('.latest-version').text('v' + v);
     $('.latest-download-link').prop("href", u).click(function(event) {
         if (ga.hasOwnProperty('loaded') && ga.loaded === true) {
